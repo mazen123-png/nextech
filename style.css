@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #fff;
+    background-color: #33224a;
+}
+.imageSection{
+    height: 700px;
+    background-image: url('./nexTech.png');
+    background-repeat: no-repeat;
+}
+nav{
+    display: flex;
+    width: 100%;
+    background-color: none;
+    height: 100px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    width: 100%;
+    
+}
+ul .containItems{
+    display: flex;
+}
+ul li{
+    color: #fff;
+    list-style-type: none;
+}
+
+#signUp,.contact,.logIn{
+    color: #fff;
+    background-color: red;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+    transition: .5s;
+    margin-right: 10px;
+}
+#signUp{
+    margin-right: 40px;
+}
+a:hover,#submit:hover,#signUp:hover{
+    background-color: #810505;
+}
+button{
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+.header{
+    width: 100%;
+    margin-bottom: 3em;
+}
+.header > h1{
+    text-align: center;
+    letter-spacing: .8px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputs input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    width: 25%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#submit{
+    background-color: red;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: .8px;
+}
+.sign_up{
+    margin-top: 12%;
+}
+.contantSection{
+    height: 1000px;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
